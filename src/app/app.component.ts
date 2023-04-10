@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'iglogin';
+  userlogin(data: any){
+    console.log(data)
+  }
 }
